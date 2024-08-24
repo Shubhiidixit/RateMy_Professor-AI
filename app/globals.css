@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-background text-white font-sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @apply text-white font-bold;
+}
+
+input {
+    @apply bg-cardBg text-white placeholder-gray-400;
+}
+
+button {
+    @apply bg-accent text-white font-semibold rounded transition duration-300;
+}
+
+button:hover {
+    @apply bg-accent2;
+}
+
+.error-message {
+    @apply text-red-600 font-semibold;
+}
